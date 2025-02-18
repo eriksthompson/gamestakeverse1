@@ -69,7 +69,7 @@ body {
     transform: translateY(1px);
   }
 } */
-
+/*
 .slider__controls {
   display: flex;
   gap: 20px;
@@ -103,22 +103,22 @@ body {
       transform: rotate(180deg);
     }
   }
-}
+}*/
 /* .icon {
     &:focus
   fill: white !important;
-} */
+} *//*
 .slider {
   --slide-size: 380px;
-  --slide-margin: 4vmin;
+  --slide-margin: 4vmin;*/
   /* float: right; */
-
+/*
   height: var(--slide-size);
   margin: 0 auto;
   position: relative;
   width: var(--slide-size);
 }
-
+*//*
 .slider__wrapper {
   display: flex;
   margin: 0 calc(var(--slide-margin) * -1);
@@ -163,7 +163,7 @@ body {
       transform: translateX(-2%);
     }
   }
-
+*/
   /* Define individual background colors for each slide */
   /* .abc {
     background-color: red;
@@ -174,7 +174,7 @@ body {
   } */
 
   /* Add more styles for additional slides as needed */
-}
+/*}
 
 .slide--current {
   --x: 0;
@@ -196,9 +196,9 @@ body {
   }
 }
 
-.slide__image-wrapper {
+.slide__image-wrapper {*/
   /* background-color: red; */
-  border-radius: 1%;
+  /*border-radius: 1%;
   height: 100%;
   left: 0%;
   overflow: hidden;
@@ -281,10 +281,10 @@ body {
 @media screen and (max-width: 1280px) {
   .slider {
     --slide-size: 280px;
-    --slide-margin: 4vmin;
+    --slide-margin: 4vmin;*/
     /* float: right; */
 
-    height: var(--slide-size);
+   /* height: var(--slide-size);
     margin: 0 auto;
     position: relative;
     width: var(--slide-size);
@@ -335,9 +335,9 @@ body {
       }
     }
   }
-  .slide__image-wrapper {
+  .slide__image-wrapper {*/
     /* background-color: red; */
-    border-radius: 1%;
+    /*border-radius: 1%;
     height: 100%;
     left: 0%;
     overflow: hidden;
@@ -384,4 +384,4 @@ body {
       }
     }
   }
-}
+}*/

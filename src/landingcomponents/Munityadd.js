@@ -20,7 +20,6 @@ export const Munityadd = () => {
     <div className="Munityadd">
       <div class="gradient gradient--8"></div>
       <div class="gradient gradient--9"></div>
-      <AnimatedSection getStyles={getFadeTopStyles}>
         <div className="topTitle">
           <div id="line"></div>
           <div>
@@ -33,8 +32,6 @@ export const Munityadd = () => {
 
           <div id="line"></div>
         </div>
-      </AnimatedSection>
-      <AnimatedSection getStyles={getFadeTopStyles}>
         <div className="middleTitle">
           <span>
             Download the{" "}
@@ -44,9 +41,7 @@ export const Munityadd = () => {
             Kit for branding assets.
           </span>
         </div>
-      </AnimatedSection>
       <div className="bottomImg">
-        <AnimatedSection getStyles={getFadeLeftStyles}>
           <div className="leftImg titleImg">
             <div className="download Ldown">
               <div className="Ltext">
@@ -61,8 +56,6 @@ export const Munityadd = () => {
             </div>{" "}
             <div className="borderTitle"></div>
           </div>
-        </AnimatedSection>
-        <AnimatedSection getStyles={getFadeRightStyles}>
           <div className="rightImg titleImg">
             <div className="download Rdown">
               <div className="Ltext">
@@ -77,9 +70,7 @@ export const Munityadd = () => {
             </div>
             <div className="borderTitle"></div>
           </div>
-        </AnimatedSection>
       </div>
-      <AnimatedSection getStyles={getFadeTopStyles}>
         <div className="munityUpdate">
           <div className="updateDiv">
             <div className="Ltext">
@@ -93,7 +84,7 @@ export const Munityadd = () => {
             </div>
           </div>
         </div>
-      </AnimatedSection>
+
     </div>
   );
 };

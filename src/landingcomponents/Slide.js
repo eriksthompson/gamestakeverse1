@@ -16,7 +16,8 @@ import fix4 from "../images/fix4.png";
 import fix from "../images/fotor.png";
 const images = [Slide1, Slide2, Slide3];
 const delay = 4500;
-export const Slide = () => {
+export const Slide = () => {}
+/*
   const [index, setIndex] = useState(0);
   const [isHoveredL, setIsHoveredL] = useState(false);
   const [isHoveredR, setIsHoveredR] = useState(false);
@@ -56,7 +57,7 @@ export const Slide = () => {
               style={{ backgroundImage: `url(${item})` }}
             />
           ))}
-        </div>
+        </div>*/
         {/* <div className="slideshowDots">
           {images.map((_, idx) => (
             <div
@@ -68,7 +69,7 @@ export const Slide = () => {
             ></div>
           ))}
         </div> */}
-        <div className="slideTools">
+        /*<div className="slideTools">
           <img
             src={isHoveredL ? SlideLBtnHo2 : SlideLBtn2}
             alt="My"
@@ -99,7 +100,7 @@ export const Slide = () => {
                 <div
                   className="miniHorse1"
                   style={
-                    { backgroundImage: `url(${fix})` }
+                    { backgroundImage: `url(${fix})` }*/
                     // index === 0
                     //   ? { backgroundImage: `url(${Minihorse1})` }
                     //   : index === 1
@@ -125,17 +126,17 @@ export const Slide = () => {
                     //       left: "0px",
                     //     }
                     //   : {}
-                  }
+                  /*}
                 ></div>
-                {/* <div
+                {*//* <div
                   className="miniHorse2"
                   style={
                     index === 0
                       ? { backgroundImage: `url(${Minihorse2})` }
                       : { display: "none" }
                   }
-                ></div> */}
-              </div>
+                ></div> *//*}*/
+              /*</div>
               <div>
                 <div className="fixMiddle">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -152,3 +153,4 @@ export const Slide = () => {
     </div>
   );
 };
+*/

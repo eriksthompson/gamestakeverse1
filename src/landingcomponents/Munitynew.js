@@ -5,14 +5,9 @@ import Slide3 from "../images/Slidebg-3.jpg";
 import { AnimatedSection } from "./AnimatedSection";
 export const Munitynew = () => {
   const getFadeTopStyles = (isFadeLeftInViewPort) => ({
-    transition: "all 1s ease-in",
-    opacity: isFadeLeftInViewPort ? "1" : "0",
-    transform: isFadeLeftInViewPort ? "" : "translateY(40px)",
   });
   const getFadeRightStyles = (isFadeLeftInViewPort) => ({
-    transition: "all 1.8s ease-in",
-    opacity: isFadeLeftInViewPort ? "1" : "0",
-    transform: isFadeLeftInViewPort ? "" : "translateX(100%)",
+    
   });
 
   const slideData = [

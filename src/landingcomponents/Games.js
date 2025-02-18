@@ -5,24 +5,16 @@ import Game3 from "../images/Game3.png";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import { AnimatedSection } from "./AnimatedSection";
 const getFadeTopStyles = (isFadeLeftInViewPort) => ({
-  transition: "all 1s ease-in",
-  opacity: isFadeLeftInViewPort ? "1" : "0",
-  transform: isFadeLeftInViewPort ? "" : "translateY(100px)",
+ 
 });
 const getFadeTopStylesL = (isFadeLeftInViewPort) => ({
-  transition: "all 1s ease-in",
-  opacity: isFadeLeftInViewPort ? "1" : "0",
-  transform: isFadeLeftInViewPort ? "" : "translateY(100px)",
+
 });
 const getFadeTopStylesC = (isFadeLeftInViewPort) => ({
-  transition: "all 1.5s ease-in",
-  opacity: isFadeLeftInViewPort ? "1" : "0",
-  transform: isFadeLeftInViewPort ? "" : "translateY(100px)",
+  
 });
 const getFadeTopStylesR = (isFadeLeftInViewPort) => ({
-  transition: "all 0.5s ease-in",
-  opacity: isFadeLeftInViewPort ? "1" : "0",
-  transform: isFadeLeftInViewPort ? "" : "translateY(100px)",
+  
 });
 export const Games = () => {
   return (

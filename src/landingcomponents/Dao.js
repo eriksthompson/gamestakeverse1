@@ -3,14 +3,10 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import { AnimatedSection } from "./AnimatedSection";
 export const Dao = () => {
   const getFadeTopStyles = (isFadeLeftInViewPort) => ({
-    transition: "all 1s ease-in",
-    opacity: isFadeLeftInViewPort ? "1" : "0",
-    transform: isFadeLeftInViewPort ? "" : "translateY(40px)",
+   
   });
   const getFadeRightStyles = (isFadeLeftInViewPort) => ({
-    transition: "all 1.5s ease-in",
-    opacity: isFadeLeftInViewPort ? "1" : "0",
-    transform: isFadeLeftInViewPort ? "" : "translateX(100%)",
+    
   });
   return (
     <div className="Dao">
